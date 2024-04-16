@@ -101,6 +101,12 @@ Foi feito um arquivo chamado "main.py" para esta aplicação:
     python main.py
 
 
+  # Executano a aplicação:
+
+![image](https://github.com/leandroloffeu/provap1node/assets/112645165/aa5a5fe3-be48-4373-bf93-183f02ecea04)
+
+
+
     
         
       
