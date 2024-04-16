@@ -56,28 +56,10 @@ npm install express mongoose body-parser cors
 
 
 
-## feto um arquivo chamado "server.js" na raiz do projeto:
+## feito um arquivo chamado "server.js" na raiz do projeto:
 
-const express = require('express');
-const bodyParser = require('body-parser');
-const cors = require('cors');
-const UserController = require('./controllers/UserController');
+![image](https://github.com/leandroloffeu/provap1node/assets/112645165/b8d86cbe-2667-4800-bb2e-00be7617484d)
 
-const app = express();
-app.use(bodyParser.json());
-app.use(cors());
-
-const userController = new UserController();
-
-app.get('/users', userController.index);
-app.get('/users/:id', userController.show);
-app.post('/users', userController.store);
-app.put('/users/:id', userController.update);
-app.delete('/users/:id', userController.destroy);
-
-app.listen(3000, () => {
-    console.log('Server is running on port 3000');
-});
 
 ## Criando uma aplicação Flask com CRUD:
 
