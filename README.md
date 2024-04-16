@@ -111,6 +111,12 @@ Foi feito um arquivo chamado "main.py" para esta aplicação:
 Quando executa o aplicativo o mesmo não funciona e retorna a segunte mensagem de erro:
 
 ![image](https://github.com/leandroloffeu/provap1node/assets/112645165/8c22bc7f-b26d-402a-82bf-5da58e588756)
+
+## Víde do erro quando executa:
+
+https://youtu.be/KOZnwureieI?si=apOpJEB8UFkWucsj
+
+
  
 
 
