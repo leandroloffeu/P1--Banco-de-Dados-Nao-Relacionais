@@ -61,7 +61,7 @@ npm install express mongoose body-parser cors
 ![image](https://github.com/leandroloffeu/provap1node/assets/112645165/b8d86cbe-2667-4800-bb2e-00be7617484d)
 
 
-## Criando uma aplicação Flask com CRUD:
+# Criando uma aplicação Flask com CRUD:
 
 ## Instalando o Flask e o SQLAlchemy:
 
@@ -69,118 +69,20 @@ pip install flask flask-sqlalchemy
 
 ## Foi criado um arquivo chamado "app.py":
 
-from flask import Flask, request, jsonify
-from flask_sqlalchemy import SQLAlchemy
+![image](https://github.com/leandroloffeu/provap1node/assets/112645165/007c0502-6237-4fe1-9a8b-af3ad36134b6)
+![image](https://github.com/leandroloffeu/provap1node/assets/112645165/a4f4fbe7-2def-465a-a63d-58b230f1edc9)
 
-app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///crud.db'
-db = SQLAlchemy(app)
 
-class User(db.Model):
-    id = db.Column(db.Integer, primary_key=True)
-    name = db.Column(db.String(50), nullable=False)
-    email = db.Column(db.String(50), unique=True, nullable=False)
-
-    def __repr__(self):
-        return f'<User {self.name}>'
-
-db.create_all()
-
-@app.route('/users', methods=['GET', 'POST'])
-def users():
-    if request.method == 'GET':
-        users = User.query.all()
-        return jsonify([user.__dict__ for user in users])
-
-    data = request.get_json()
-    new_user = User(name=data['name'], email=data['email'])
-    db.session.add(new_user)
-    db.session.commit()
-    return jsonify(new_user.__dict__), 201
-
-@app.route('/users/<int:user_id>', methods=['GET', 'PUT', 'DELETE'])
-def user(user_id):
-    user = User.query.get_or_404(user_id)
-
-    if request.method == 'GET':
-        return jsonify(user.__dict__)
-
-    if request.method == 'PUT':
-        data = request.get_json()
-        user.name = data['name']
-        user.email = data['email']
-        db.session.commit()
-        return jsonify(user.__dict__)
-
-    if request.method == 'DELETE':
-        db.session.delete(user)
-        db.session.commit()
-        return '', 204
-
-if __name__ == '__main__':
-    app.run(debug=True)
 
 ## Unindo as duas camadas da aplicação:
 
 Para unir as duas camadas da aplicação, foi criado uma API RESTful para se comunicar com o servidor Node.js para o login e com o servidor Flask para o CRUD.
 Foi feito um arquivo chamado "main.py" para esta aplicação:
 
-import requests
+![image](https://github.com/leandroloffeu/provap1node/assets/112645165/6e9cd38a-647a-4f6b-a43d-b8bbab1783d9)
+![image](https://github.com/leandroloffeu/provap1node/assets/112645165/e60751b7-5c78-42a8-ad4a-c536e9dbe97d)
 
-class App:
-    def __init__(self):
-        self.node_url = 'http://localhost:3000'
-        self.flask_url = 'http://localhost:5000'
 
-    def login(self, username, password):
-        url = f'{self.node_url}/users/login'
-        data = {'username': username, 'password': password}
-        response = requests.post(url, json=data)
-        return response.json()
-
-    def create_user(self, name, email, password):
-        url = f'{self.node_url}/users'
-        data = {'name': name, 'email': email, 'password': password}
-        response = requests.post(url, json=data)
-        return response.json()
-
-    def get_users(self):
-        url = f'{self.flask_url}/users'
-        response = requests.get(url)
-        return response.json()
-
-    def get_user(self, user_id):
-        url = f'{self.flask_url}/users/{user_id}'
-        response = requests.get(url)
-        return response.json()
-
-    def create_user(self, name, email, password):
-        url = f'{self.flask_url}/users'
-        data = {'name': name, 'email': email, 'password': password}
-        response = requests.post(url, json=data)
-        return response.json()
-
-    def update_user(self, user_id, name, email, password):
-        url = f'{self.flask_url}/users/{user_id}'
-        data = {'name': name, 'email': email, 'password': password}
-        response = requests.put(url, json=data)
-        return response.json()
-
-    def delete_user(self, user_id):
-        url = f'{self.flask_url}/users/{user_id}'
-        response = requests.delete(url)
-        return response.status_code
-        
-if __name__ == '__main__':
-    app = App()
-    user_id = app.create_user('John Doe', 'john.doe@example.com', 'secret')
-    print(f'Created user with ID {user_id}')
-    user = app.get_user(user_id)
-    print(f'Retrieved user: {user}')
-    updated_user = app.update_user(user_id, 'fabricio', 'fabricio@example.com', 'new_secret')
-    print(f'Updated user: {updated_user}')
-    response = app.delete_user(user_id)
-    print(f'Deleted user with status code {response}')
 
 ## Rodando as aplicações:
 
