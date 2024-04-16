@@ -112,7 +112,7 @@ Quando executa o aplicativo o mesmo não funciona e retorna a segunte mensagem d
 
 ![image](https://github.com/leandroloffeu/provap1node/assets/112645165/8c22bc7f-b26d-402a-82bf-5da58e588756)
 
-## Víde do erro quando executa:
+## Video do erro quando executa:
 
 https://youtu.be/KOZnwureieI?si=apOpJEB8UFkWucsj
 
