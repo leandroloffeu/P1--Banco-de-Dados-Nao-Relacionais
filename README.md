@@ -29,7 +29,7 @@ Todas as avaliações serão sujeitas a análise do professor em sala de aula, p
 
 ## Criando um projeto com MongoDB, Express e Repository Pattern:
 
-# Foi criado uma nova pasta para esta atividade, inciando um novo projeto Node.js
+## Foi criado uma nova pasta para esta atividade, inciando um novo projeto Node.js
   
   mkdir node-mongo-repository
   cd node-mongo-repository
