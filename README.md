@@ -108,8 +108,8 @@ class UserController {
         res.status(204).send();
     }
 }
-
 module.exports = UserController;
+
 
 # feto um arquivo chamado "server.js" na raiz do projeto:
 
@@ -242,8 +242,7 @@ class App:
     def delete_user(self, user_id):
         url = f'{self.flask_url}/users/{user_id}'
         response = requests.delete(url)
-        return response.status_code
-        
+        return response.status_code        
 if __name__ == '__main__':
     app = App()
     user_id = app.create_user('John Doe', 'john.doe@example.com', 'secret')
@@ -258,16 +257,15 @@ if __name__ == '__main__':
     response = app.delete_user(user_id)
     print(f'Deleted user with status code {response}')
 
+## Rodando as aplicações:
 
-    ## Rodando as aplicações:
-
-    # Inciniando o servidor Node.js:
+  # Inciniando o servidor Node.js:
     node server.js
 
-    # Inciando o servidor Flask:
+  # Inciando o servidor Flask:
     python app.py
 
-    # Inciando a aplicação principal com o seguinte comando:
+  # Inciando a aplicação principal com o seguinte comando:
     python main.py
 
 
