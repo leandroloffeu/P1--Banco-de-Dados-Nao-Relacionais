@@ -27,7 +27,7 @@ Todas as avaliações serão sujeitas a análise do professor em sala de aula, p
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-## Criando um projeto com MongoDB, Express e Repository Pattern:
+# Criando um projeto com MongoDB, Express e Repository Pattern:
 
 ## Foi criado uma nova pasta para esta atividade, inciando um novo projeto Node.js
   
@@ -35,11 +35,11 @@ Todas as avaliações serão sujeitas a análise do professor em sala de aula, p
   cd node-mongo-repository
   npm init -y
 
-# Instalando as dependências necessárias:
+## Instalando as dependências necessárias:
 
 npm install express mongoose body-parser cors
 
-# Criado uma pasta chamada "models" e dentro desta pasta, foi criado um arquivo "User.js":
+## Criado uma pasta chamada "models" e dentro desta pasta, foi criado um arquivo "User.js":
 
 const mongoose = require('mongoose');
 
@@ -50,7 +50,7 @@ const UserSchema = new mongoose.Schema({
 
 module.exports = mongoose.model('User', UserSchema);
 
-# Criando uma pasta "repositories" e dentro dela, foi criado um arquivo chamado "UserRepository.js":
+## Criando uma pasta "repositories" e dentro dela, foi criado um arquivo chamado "UserRepository.js":
 
 const User = require('../models/User');
 
@@ -78,7 +78,7 @@ class UserRepository {
 
 module.exports = UserRepository;
 
-# feito uma pasta chamada "controllers" e dentro dela, foi criado um arquivo chamado "UserController.js":
+## feito uma pasta chamada "controllers" e dentro dela, foi criado um arquivo chamado "UserController.js":
 
 const UserRepository = require('../repositories/UserRepository');
 
@@ -111,7 +111,7 @@ class UserController {
 module.exports = UserController;
 
 
-# feto um arquivo chamado "server.js" na raiz do projeto:
+## feto um arquivo chamado "server.js" na raiz do projeto:
 
 const express = require('express');
 const bodyParser = require('body-parser');
@@ -136,11 +136,11 @@ app.listen(3000, () => {
 
 ## Criando uma aplicação Flask com CRUD:
 
-# Instalando o Flask e o SQLAlchemy:
+## Instalando o Flask e o SQLAlchemy:
 
 pip install flask flask-sqlalchemy
 
-# Foi criado um arquivo chamado "app.py":
+## Foi criado um arquivo chamado "app.py":
 
 from flask import Flask, request, jsonify
 from flask_sqlalchemy import SQLAlchemy
@@ -193,7 +193,7 @@ def user(user_id):
 if __name__ == '__main__':
     app.run(debug=True)
 
-# Unindo as duas camadas da aplicação:
+## Unindo as duas camadas da aplicação:
 
 Para unir as duas camadas da aplicação, foi criado uma API RESTful para se comunicar com o servidor Node.js para o login e com o servidor Flask para o CRUD.
 Foi feito um arquivo chamado "main.py" para esta aplicação:
@@ -259,13 +259,13 @@ if __name__ == '__main__':
 
 ## Rodando as aplicações:
 
-  # Inciniando o servidor Node.js:
+  ## Inciniando o servidor Node.js:
     node server.js
 
-  # Inciando o servidor Flask:
+  ## Inciando o servidor Flask:
     python app.py
 
-  # Inciando a aplicação principal com o seguinte comando:
+  ## Inciando a aplicação principal com o seguinte comando:
     python main.py
 
 
