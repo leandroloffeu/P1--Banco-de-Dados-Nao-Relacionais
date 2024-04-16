@@ -106,6 +106,16 @@ Foi feito um arquivo chamado "main.py" para esta aplicação:
 ![image](https://github.com/leandroloffeu/provap1node/assets/112645165/aa5a5fe3-be48-4373-bf93-183f02ecea04)
 
 
+## Erro encontrador:
+
+Quando executa o aplicativo o mesmo não funciona e retorna a segunte mensagem de erro:
+
+![image](https://github.com/leandroloffeu/provap1node/assets/112645165/8c22bc7f-b26d-402a-82bf-5da58e588756)
+ 
+
+
+
+
 
     
         
