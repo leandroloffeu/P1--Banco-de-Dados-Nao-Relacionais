@@ -12,7 +12,7 @@ P1 - Enunciado
 
 3. Unir as duas camadas da aplicação, o login + o crud, nodejs + python.
 
-4 . Documentar em forma de resumo o processo ao qual vocês utilizaram para chegar no final da aplicação.
+4. Documentar em forma de resumo o processo ao qual vocês utilizaram para chegar no final da aplicação.
 
 5. Colocar no GITHUB.
 
