@@ -83,6 +83,11 @@ Foi feito um arquivo chamado "main.py" para esta aplicação:
 ![image](https://github.com/leandroloffeu/provap1node/assets/112645165/e60751b7-5c78-42a8-ad4a-c536e9dbe97d)
 
 
+# Estrutura do projeto no Visual Studio Code:
+
+![image](https://github.com/leandroloffeu/provap1node/assets/112645165/fa93a287-7c3f-4106-b7e2-17c29339c6d7)
+
+
 
 ## Rodando as aplicações:
 
