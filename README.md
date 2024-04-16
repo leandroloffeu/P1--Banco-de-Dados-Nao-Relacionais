@@ -41,14 +41,9 @@ npm install express mongoose body-parser cors
 
 ## Criado uma pasta chamada "models" e dentro desta pasta, foi criado um arquivo "User.js":
 
-const mongoose = require('mongoose');
+![image](https://github.com/leandroloffeu/provap1node/assets/112645165/4e5040d7-6ff9-4843-9d79-058647d60b8e)
 
-const UserSchema = new mongoose.Schema({
-    username: { type: String, required: true, unique: true },
-    password: { type: String, required: true }
-});
 
-module.exports = mongoose.model('User', UserSchema);
 
 ## Criando uma pasta "repositories" e dentro dela, foi criado um arquivo chamado "UserRepository.js":
 
