@@ -242,18 +242,16 @@ class App:
     def delete_user(self, user_id):
         url = f'{self.flask_url}/users/{user_id}'
         response = requests.delete(url)
-        return response.status_code        
+        return response.status_code
+        
 if __name__ == '__main__':
     app = App()
     user_id = app.create_user('John Doe', 'john.doe@example.com', 'secret')
     print(f'Created user with ID {user_id}')
-
     user = app.get_user(user_id)
     print(f'Retrieved user: {user}')
-
-    updated_user = app.update_user(user_id, 'John Doe', 'john.doe@example.com', 'new_secret')
+    updated_user = app.update_user(user_id, 'fabricio', 'fabricio@example.com', 'new_secret')
     print(f'Updated user: {updated_user}')
-
     response = app.delete_user(user_id)
     print(f'Deleted user with status code {response}')
 
