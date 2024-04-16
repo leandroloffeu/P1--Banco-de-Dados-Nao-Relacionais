@@ -243,7 +243,7 @@ class App:
         url = f'{self.flask_url}/users/{user_id}'
         response = requests.delete(url)
         return response.status_code
-
+        
 if __name__ == '__main__':
     app = App()
     user_id = app.create_user('John Doe', 'john.doe@example.com', 'secret')
@@ -263,6 +263,15 @@ if __name__ == '__main__':
 
     # Inciniando o servidor Node.js:
     node server.js
+
+    # Inciando o servidor Flask:
+    python app.py
+
+    # Inciando a aplicação principal com o seguinte comando:
+    python main.py
+
+
+    
         
       
 
