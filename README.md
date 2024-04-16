@@ -2,7 +2,7 @@
 
 # Engenharia de Software
 ### Leandro Loffeu Pereira Costa - mat. 202212089
-## Estrutura de Dados - 4º Período
+## Banco de dados não relacionais - 4º Período
 ### Professor: Fabicio
 
 P1 - Enunciado
