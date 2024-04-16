@@ -47,31 +47,8 @@ npm install express mongoose body-parser cors
 
 ## Criando uma pasta "repositories" e dentro dela, foi criado um arquivo chamado "UserRepository.js":
 
-const User = require('../models/User');
+![image](https://github.com/leandroloffeu/provap1node/assets/112645165/4ed15b85-4bee-48ed-aa51-54c6d2cca802)
 
-class UserRepository {
-    async findAll() {
-        return await User.find();
-    }
-
-    async findById(id) {
-        return await User.findById(id);
-    }
-
-    async create(user) {
-        return await User.create(user);
-    }
-
-    async update(id, user) {
-        return await User.findByIdAndUpdate(id, user);
-    }
-
-    async delete(id) {
-        return await User.findByIdAndDelete(id);
-    }
-}
-
-module.exports = UserRepository;
 
 ## feito uma pasta chamada "controllers" e dentro dela, foi criado um arquivo chamado "UserController.js":
 
