@@ -295,8 +295,9 @@ https://youtu.be/KOZnwureieI?si=apOpJEB8UFkWucsj
 
   Arquivos CSS onde se faz o controle dos elementos em HTML 
 
+  # Estrutura do projeto no Visual Studio Code:
   ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/b74c1e6d-e668-44e3-9991-f4596802c062)
-  # Estrutura do projeto no Visual Studio Code
+  
 
 
 
