@@ -130,27 +130,31 @@ https://youtu.be/KOZnwureieI?si=apOpJEB8UFkWucsj
   
   ## No semestre anterior, realizamos um exercício em Flask e aproveitei o código para estabelecer uma conexão com o banco de dados MySQL. 
 
-  ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/f0edf14c-4c36-467f-90e0-fc8540f114a7)
-
+  
   Criando o Banco de Dados (CREATE DATABASE):
   Nesta linha estabelece um novo banco de dados denominado "empresa". Onde armazenará todas as tabelas relacionadas às informações da empresa.
+  ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/f0edf14c-4c36-467f-90e0-fc8540f114a7)
 
-
-  ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/1f9ea35e-4e69-441a-b90a-f1a8431a60df)
   
+
   Selecionando o Banco de Dados (USE empresa):
   Este Comando [e para usar o database empresa banco de dados para operações subsequentes.Todas as CREATE TABLE instruções a seguir criarão tabelas neste banco de dados.
-
-  ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/231f9d35-8da6-4a98-ae09-17d62b9dbe6f)
+  ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/1f9ea35e-4e69-441a-b90a-f1a8431a60df)
   
+ 
+
   Criando tabela setor:
   Este comando cria uma tabela “setor” com as seguintes colunas:
   id: Um inteiro (int) que incrementa automaticamente (auto_increment) a cada novo registro, como chave primária (chave primária) da tabela. que garante que cada setor tenha um identificador exclusivo.
   nome: Uma string (varchar) com comprimento máximo de 50 caracteres para armazenar o nome do setor com not null onde indica que esta coluna não pode conter valores vazios.
-
-  ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/3b52f07b-cae9-4be3-99fb-664417806755)
+  ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/231f9d35-8da6-4a98-ae09-17d62b9dbe6f)
   
-  Criando tabela funcionario:
+  
+
+  
+  
+  
+   Criando tabela funcionario:
   Este comando define uma tabela chamada funcionario para armazenar informações dos funcionários com seguintes colunas:
   id: Um inteiro (int) que esta é uma chave primária inteira com incremento automático.
   primeiro_nome: Uma string (varchar) com comprimento máximo de 50 caracteres para armazenar o nome do funcionário.
@@ -158,24 +162,33 @@ https://youtu.be/KOZnwureieI?si=apOpJEB8UFkWucsj
   data_admissao: Um tipo de dados de data para armazenar a data de admissão do funcionário.
   status_funcionario: Um valor booleano para representar a situação profissional do funcionário.
   id_setor: uma chave estrangeira inteira (int) que faz referência à idcoluna da tabla setor. Isso cria um relacionamento entre os funcionários e seus setores atribuídos.
+  ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/3b52f07b-cae9-4be3-99fb-664417806755)
+  
+ 
 
-  ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/851864c3-657a-4763-aaeb-e1997acc87cf)
+ 
   
   Criando a tabela cargo:
   Este comando define uma tabela chamada cargo para armazenar informações sobre os cargos dos funcionários.
   id: Um inteiro (int) que é uma chave primária com incremento automático.
   id_setor: Uma inteira (int), que se trata-se de uma chave estrangeira que faz referência à idcoluna da tabela setor, estabelecendo uma conexão entre as posições e seus setores.
   nome: Uma string (varchar(50)) para armazenar o nome do cargo.
-
-  ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/c73bb879-486d-4e82-a214-4dd75627bc84)  
+  ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/851864c3-657a-4763-aaeb-e1997acc87cf)
   
-  ## Este código cria um esquema de banco de dados relacional para gerenciar os dados da empresa:
+ 
+
+  
+  
+  
+  
+   ## Este código cria um esquema de banco de dados relacional para gerenciar os dados da empresa:
   A tabela setor armazena departamentos ou setores dentro da empresa.
   A tabela funcionario contém detalhes dos funcionários, incluindo o setor atribuído.
-  A tabela cargo define os cargos dos funcionários, também vinculados aos seus setores correspondentes.
-  
+  A tabela cargo define os cargos dos funcionários, também vinculados aos seus setores correspondentes.  
   # Criando um arquivo app.py onde iremos criar as importaçãoes, aplicativo Flask, configuração do banco de dados, definições de modelo, rotas para aplicativo Flask. 
-
+  ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/c73bb879-486d-4e82-a214-4dd75627bc84)  
+  
+ 
   Fazendo as Importações:
   
   ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/b86d769a-a643-4b22-8061-9d6af4bfabab)
@@ -240,60 +253,61 @@ https://youtu.be/KOZnwureieI?si=apOpJEB8UFkWucsj
   Um departamento pode ter vários funcionários.
   Um cargo pode ter vários funcionários.
 
+  
+  
+   Este bloco de código é responsável por criar as tabelas do banco de dados com base nos modelos definidos ( Setor, Cargo, e Funcionario).
   ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/97a11f14-fc21-4792-9919-eaa0ebcf2bc9)
   
-  Este bloco de código é responsável por criar as tabelas do banco de dados com base nos modelos definidos ( Setor, Cargo, e Funcionario).
-
+ 
+  ## "Importante o codigo"
+  O código abaixo, demonstra a criação de modelos de dados e uma rota básica para um aplicativo Web Flask usando Flask- SQLAlchemy para gerenciar dados e interagir com um banco de dados MySQL.
   ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/922b771f-ebf6-42af-8bb1-8819184e9b24)
 
-  ## "Importante o codigo acima"
-  O código acima, demonstra a criação de modelos de dados e uma rota básica para um aplicativo Web Flask usando Flask- SQLAlchemy para gerenciar dados e interagir com um banco de dados MySQL.
 
-
-  ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/81651dbf-8bb5-4930-b373-0e4776cda4f1)
 
   Esta Rota renderiza o template HTML chamado index.html. Onde define a página inicial da aplicação.
+  ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/81651dbf-8bb5-4930-b373-0e4776cda4f1)
 
-  ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/1c80ea98-5cf2-4d5b-b71c-2c10b58987dc)
-  
+ 
   É a rota aceita requisições GET e POST
   Permite que os usuários criem novos setores.
-
+  ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/1c80ea98-5cf2-4d5b-b71c-2c10b58987dc)
+  
+ 
+  Esta rota permite que os usuários cadastrem novos funcionários.
   ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/e241aa7e-6886-490e-bff5-fad098e5acb3)
 
-  Esta rota permite que os usuários cadastrem novos funcionários.
-
-  ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/60053149-dcca-4543-b54a-64eff055e909)
-
+ 
   Essa rota de cadastro_cargo abre o formulário para cadastrar cargos.
   Preenchendo o nome do cargo e envia o formulário. O sistema salva o cargo no banco de dados e retorna para a página de cadastro.
+  ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/60053149-dcca-4543-b54a-64eff055e909)
 
-  ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/df2c01af-6dd9-4d1b-8ffc-174f66800bca)
   
   Essa rota de visualizar_funcionarios para ver uma lista de todos os funcionários cadastrados.
-
+  ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/df2c01af-6dd9-4d1b-8ffc-174f66800bca)
+  
+  
+  Esssa rota permite excluir_funcionario/<ID do funcionário> para excluir um funcionário específico.
   ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/f0e6d392-9b6f-4579-bdf3-05fd9d40c932)
 
-  Esssa rota permite excluir_funcionario/<ID do funcionário> para excluir um funcionário específico.
-
+ 
+  Essa rota permite voltar para retornar à página inicial da aplicação.
   ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/9a624bb7-534c-448e-b600-1171ba919804)
 
-  Essa rota permite voltar para retornar à página inicial da aplicação.
-
-  ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/9d4ac576-ae73-40fc-b5be-754f27a385a3)
-
+ 
   Este código serve para executar a aplicação web.
   Verifica se o código está sendo executado como script principal.
   Cria um contexto de aplicativo para a variável app.
   Inicia o servidor de desenvolvimento do Flask
+  ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/9d4ac576-ae73-40fc-b5be-754f27a385a3)
 
+  
+  Templates em HTML para navegação.
   ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/ed97c622-39cf-4d09-944b-142eb5b4a9d6)
 
-  Templates em HTML para navegação.
-
+   Arquivos CSS onde se faz o controle dos elementos em HTML 
   ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/d5018be1-76a2-4393-b982-b164ca5e5e25)
-
-  Arquivos CSS onde se faz o controle dos elementos em HTML 
+  
 
   # Estrutura do projeto no Visual Studio Code:
   ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/b74c1e6d-e668-44e3-9991-f4596802c062)
