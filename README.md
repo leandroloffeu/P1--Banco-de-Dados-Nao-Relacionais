@@ -164,7 +164,7 @@ https://youtu.be/KOZnwureieI?si=apOpJEB8UFkWucsj
   nome: Uma string (varchar(50)) para armazenar o nome do cargo.
 
   ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/c73bb879-486d-4e82-a214-4dd75627bc84)  
-  # Este código cria um esquema de banco de dados relacional para gerenciar os dados da empresa:
+  ## Este código cria um esquema de banco de dados relacional para gerenciar os dados da empresa:
   A tabela setor armazena departamentos ou setores dentro da empresa.
   A tabela funcionario contém detalhes dos funcionários, incluindo o setor atribuído.
   A tabela cargo define os cargos dos funcionários, também vinculados aos seus setores correspondentes.
