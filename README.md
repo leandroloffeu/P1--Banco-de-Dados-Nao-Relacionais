@@ -257,6 +257,37 @@ https://youtu.be/KOZnwureieI?si=apOpJEB8UFkWucsj
   ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/1c80ea98-5cf2-4d5b-b71c-2c10b58987dc)
   
   É a rota aceita requisições GET e POST
+  Permite que os usuários criem novos setores.
+
+  ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/e241aa7e-6886-490e-bff5-fad098e5acb3)
+
+  Esta rota permite que os usuários cadastrem novos funcionários.
+
+  ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/60053149-dcca-4543-b54a-64eff055e909)
+
+  Essa rota de cadastro_cargo abre o formulário para cadastrar cargos.
+  Preenchendo o nome do cargo e envia o formulário. O sistema salva o cargo no banco de dados e retorna para a página de cadastro.
+
+  ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/df2c01af-6dd9-4d1b-8ffc-174f66800bca)
+  
+  Essa rota de visualizar_funcionarios para ver uma lista de todos os funcionários cadastrados.
+
+  ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/f0e6d392-9b6f-4579-bdf3-05fd9d40c932)
+
+  Esssa rota permite excluir_funcionario/<ID do funcionário> para excluir um funcionário específico.
+
+  ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/9a624bb7-534c-448e-b600-1171ba919804)
+
+  Essa rota permite voltar para retornar à página inicial da aplicação.
+
+  
+
+
+
+
+  
+
+
   
 
 
