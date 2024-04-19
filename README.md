@@ -298,7 +298,7 @@ https://youtu.be/KOZnwureieI?si=apOpJEB8UFkWucsj
   # Estrutura do projeto no Visual Studio Code:
   ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/b74c1e6d-e668-44e3-9991-f4596802c062)
 
-  Vídeo do sistema em funcionamento:
+  ## Vídeo do sistema em funcionamento:
 
   https://youtu.be/5DbgJpZWfww?si=W3IYsVOY2JbH8YPT
 
