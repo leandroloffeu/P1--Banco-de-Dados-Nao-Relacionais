@@ -280,6 +280,27 @@ https://youtu.be/KOZnwureieI?si=apOpJEB8UFkWucsj
 
   Essa rota permite voltar para retornar à página inicial da aplicação.
 
+  ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/9d4ac576-ae73-40fc-b5be-754f27a385a3)
+
+  Este código serve para executar a aplicação web.
+  Verifica se o código está sendo executado como script principal.
+  Cria um contexto de aplicativo para a variável app.
+  Inicia o servidor de desenvolvimento do Flask
+
+  ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/ed97c622-39cf-4d09-944b-142eb5b4a9d6)
+
+  Templates em HTML para navegação.
+
+  ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/d5018be1-76a2-4393-b982-b164ca5e5e25)
+
+  Arquivos CSS onde se faz o controle dos elementos em HTML 
+
+  ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/b74c1e6d-e668-44e3-9991-f4596802c062)
+
+
+
+
+
   
 
 
