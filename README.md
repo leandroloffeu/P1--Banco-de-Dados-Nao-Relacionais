@@ -132,25 +132,25 @@ https://youtu.be/KOZnwureieI?si=apOpJEB8UFkWucsj
 
   ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/f0edf14c-4c36-467f-90e0-fc8540f114a7)
 
-  1. Criando o Banco de Dados (CREATE DATABASE):
+  Criando o Banco de Dados (CREATE DATABASE):
   Nesta linha estabelece um novo banco de dados denominado "empresa". Onde armazenará todas as tabelas relacionadas às informações da empresa.
 
 
   ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/1f9ea35e-4e69-441a-b90a-f1a8431a60df)
   
-  2. Selecionando o Banco de Dados (USE empresa):
+  Selecionando o Banco de Dados (USE empresa):
   Este Comando [e para usar o database empresa banco de dados para operações subsequentes.Todas as CREATE TABLE instruções a seguir criarão tabelas neste banco de dados.
 
   ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/231f9d35-8da6-4a98-ae09-17d62b9dbe6f)
   
-  3. Criando tabela setor:
+  Criando tabela setor:
   Este comando cria uma tabela “setor” com as seguintes colunas:
   id: Um inteiro (int) que incrementa automaticamente (auto_increment) a cada novo registro, como chave primária (chave primária) da tabela. que garante que cada setor tenha um identificador exclusivo.
   nome: Uma string (varchar) com comprimento máximo de 50 caracteres para armazenar o nome do setor com not null onde indica que esta coluna não pode conter valores vazios.
 
   ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/3b52f07b-cae9-4be3-99fb-664417806755)
   
-  4. Criando tabela funcionario:
+  Criando tabela funcionario:
   Este comando define uma tabela chamada funcionario para armazenar informações dos funcionários com seguintes colunas:
   id: Um inteiro (int) que esta é uma chave primária inteira com incremento automático.
   primeiro_nome: Uma string (varchar) com comprimento máximo de 50 caracteres para armazenar o nome do funcionário.
@@ -161,7 +161,7 @@ https://youtu.be/KOZnwureieI?si=apOpJEB8UFkWucsj
 
   ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/851864c3-657a-4763-aaeb-e1997acc87cf)
   
-  5. Criando a tabela cargo:
+  Criando a tabela cargo:
   Este comando define uma tabela chamada cargo para armazenar informações sobre os cargos dos funcionários.
   id: Um inteiro (int) que é uma chave primária com incremento automático.
   id_setor: Uma inteira (int), que se trata-se de uma chave estrangeira que faz referência à idcoluna da tabela setor, estabelecendo uma conexão entre as posições e seus setores.
@@ -198,7 +198,7 @@ https://youtu.be/KOZnwureieI?si=apOpJEB8UFkWucsj
   ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/d12e11f1-868e-4c9d-b991-accc0e11d225)
   
   Esta parte configura a conexão com um banco de dados MySQL chamado empresa. onde precisará substituir roote pelas credenciais reais do banco de dados, se elas forem diferentes. A string de conexão especifica o tipo 
- de banco de dados, nome de usuário, senha, host e nome do banco de dados.
+  de banco de dados, nome de usuário, senha, host e nome do banco de dados.
   SQLAlchemyé inicializado com a app instância, criando um objeto de conexão com o banco de dados denominado db.
 
   Definições de modelo - Setor:
