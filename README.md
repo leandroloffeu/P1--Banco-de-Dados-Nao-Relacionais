@@ -133,12 +133,14 @@ https://youtu.be/KOZnwureieI?si=apOpJEB8UFkWucsj
   
   Criando o Banco de Dados (CREATE DATABASE):
   Nesta linha estabelece um novo banco de dados denominado "empresa". Onde armazenará todas as tabelas relacionadas às informações da empresa.
+  
   ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/f0edf14c-4c36-467f-90e0-fc8540f114a7)
 
   
 
   Selecionando o Banco de Dados (USE empresa):
   Este Comando [e para usar o database empresa banco de dados para operações subsequentes.Todas as CREATE TABLE instruções a seguir criarão tabelas neste banco de dados.
+  
   ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/1f9ea35e-4e69-441a-b90a-f1a8431a60df)
   
  
@@ -147,6 +149,7 @@ https://youtu.be/KOZnwureieI?si=apOpJEB8UFkWucsj
   Este comando cria uma tabela “setor” com as seguintes colunas:
   id: Um inteiro (int) que incrementa automaticamente (auto_increment) a cada novo registro, como chave primária (chave primária) da tabela. que garante que cada setor tenha um identificador exclusivo.
   nome: Uma string (varchar) com comprimento máximo de 50 caracteres para armazenar o nome do setor com not null onde indica que esta coluna não pode conter valores vazios.
+  
   ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/231f9d35-8da6-4a98-ae09-17d62b9dbe6f)
   
   
@@ -162,6 +165,7 @@ https://youtu.be/KOZnwureieI?si=apOpJEB8UFkWucsj
   data_admissao: Um tipo de dados de data para armazenar a data de admissão do funcionário.
   status_funcionario: Um valor booleano para representar a situação profissional do funcionário.
   id_setor: uma chave estrangeira inteira (int) que faz referência à idcoluna da tabla setor. Isso cria um relacionamento entre os funcionários e seus setores atribuídos.
+  
   ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/3b52f07b-cae9-4be3-99fb-664417806755)
   
  
@@ -173,19 +177,18 @@ https://youtu.be/KOZnwureieI?si=apOpJEB8UFkWucsj
   id: Um inteiro (int) que é uma chave primária com incremento automático.
   id_setor: Uma inteira (int), que se trata-se de uma chave estrangeira que faz referência à idcoluna da tabela setor, estabelecendo uma conexão entre as posições e seus setores.
   nome: Uma string (varchar(50)) para armazenar o nome do cargo.
+  
   ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/851864c3-657a-4763-aaeb-e1997acc87cf)
   
  
 
   
-  
-  
-  
-   ## Este código cria um esquema de banco de dados relacional para gerenciar os dados da empresa:
+  ## Este código cria um esquema de banco de dados relacional para gerenciar os dados da empresa:
   A tabela setor armazena departamentos ou setores dentro da empresa.
   A tabela funcionario contém detalhes dos funcionários, incluindo o setor atribuído.
   A tabela cargo define os cargos dos funcionários, também vinculados aos seus setores correspondentes.  
   # Criando um arquivo app.py onde iremos criar as importaçãoes, aplicativo Flask, configuração do banco de dados, definições de modelo, rotas para aplicativo Flask. 
+  
   ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/c73bb879-486d-4e82-a214-4dd75627bc84)  
   
  
