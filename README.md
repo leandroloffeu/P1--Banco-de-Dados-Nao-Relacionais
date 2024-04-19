@@ -195,13 +195,59 @@ https://youtu.be/KOZnwureieI?si=apOpJEB8UFkWucsj
   
   ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/d12e11f1-868e-4c9d-b991-accc0e11d225)
   
-  Esta parte configura a conexão com um banco de dados MySQL chamado empresa. onde precisará substituir roote 12345678pelas credenciais reais do banco de dados, se elas forem diferentes. A string de conexão especifica o    tipo de banco de dados, nome de usuário, senha, host e nome do banco de dados.
+  Esta parte configura a conexão com um banco de dados MySQL chamado empresa. onde precisará substituir roote pelas credenciais reais do banco de dados, se elas forem diferentes. A string de conexão especifica o tipo 
+ de banco de dados, nome de usuário, senha, host e nome do banco de dados.
   SQLAlchemyé inicializado com a app instância, criando um objeto de conexão com o banco de dados denominado db.
 
-  Definições de modelo - Setor (Departamento):
+  Definições de modelo - Setor:
   
-  ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/cf12e011-7311-4184-a4d4-0546bb9089fd)
+  ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/a849f843-181d-4e62-90ea-4a9d9114d02d)
+
+  Esta classe representa um departamento dentro da empresa.
+  id_setor: esta é a chave primária da tabela.
+  nome: esta coluna armazena o nome do departamento.
+  __str__(): Este método define como um Setor objeto é representado como uma string, retornando "Setor {nome do departamento}".
+
+
+   Definições de modelo - Cargo:
+   
+  !![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/56d539dd-099d-4ace-ac27-865f2b7783c0)
+
+  Esta classe representa um cargo dentro da empresa.
+  id_cargo: chave primária da tabela.
+  nome: esta coluna armazena o nome da posição.
+  __str__(): Este método define como um Cargo objeto é representado como uma string, retornando "Carga {nome da posição}".
   
+  Definições de modelo - Funcionario:
+  
+  ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/887e6dfc-1611-4424-8df4-29b19cb1af3f)
+
+  Esta classe representa um funcionario dentro da empresa.
+  id_funcionario: Identificador único do funcionário.
+  primeiro_nome: Nome próprio do funcionário.
+  sobrenome: Sobrenome do funcionário.
+  data_admissao: Data de admissão do funcionário.
+  status_funcionario: Status do funcionário.
+  id_setor: Chave estrangeira para o departamento do funcionário.
+  id_cargo: Chave estrangeira para o cargo do funcionário.
+  setor: Objeto Setor associado ao funcionário.
+  cargo: Objeto Cargo associado ao funcionário.
+
+  Relações:
+  Um funcionário pertence a um único departamento e um único cargo.
+  Um departamento pode ter vários funcionários.
+  Um cargo pode ter vários funcionários.
+
+  ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/97a11f14-fc21-4792-9919-eaa0ebcf2bc9)
+  
+  Este bloco de código é responsável por criar as tabelas do banco de dados com base nos modelos definidos ( Setor, Cargo, e Funcionario).
+
+  
+
+
+
+  
+
 
 
   
