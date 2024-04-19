@@ -250,43 +250,52 @@ https://youtu.be/KOZnwureieI?si=apOpJEB8UFkWucsj
 
   
   
-   Este bloco de código é responsável por criar as tabelas do banco de dados com base nos modelos definidos ( Setor, Cargo, e Funcionario).
+  Este bloco de código é responsável por criar as tabelas do banco de dados com base nos modelos definidos ( Setor, Cargo, e Funcionario).
+   
   ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/97a11f14-fc21-4792-9919-eaa0ebcf2bc9)
   
  
   ## "Importante o codigo"
   O código abaixo, demonstra a criação de modelos de dados e uma rota básica para um aplicativo Web Flask usando Flask- SQLAlchemy para gerenciar dados e interagir com um banco de dados MySQL.
+  
   ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/922b771f-ebf6-42af-8bb1-8819184e9b24)
 
 
 
   Esta Rota renderiza o template HTML chamado index.html. Onde define a página inicial da aplicação.
+  
   ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/81651dbf-8bb5-4930-b373-0e4776cda4f1)
 
  
   É a rota aceita requisições GET e POST
   Permite que os usuários criem novos setores.
+  
   ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/1c80ea98-5cf2-4d5b-b71c-2c10b58987dc)
   
  
   Esta rota permite que os usuários cadastrem novos funcionários.
+  
   ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/e241aa7e-6886-490e-bff5-fad098e5acb3)
 
  
   Essa rota de cadastro_cargo abre o formulário para cadastrar cargos.
   Preenchendo o nome do cargo e envia o formulário. O sistema salva o cargo no banco de dados e retorna para a página de cadastro.
+  
   ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/60053149-dcca-4543-b54a-64eff055e909)
 
   
   Essa rota de visualizar_funcionarios para ver uma lista de todos os funcionários cadastrados.
+  
   ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/df2c01af-6dd9-4d1b-8ffc-174f66800bca)
   
   
   Esssa rota permite excluir_funcionario/<ID do funcionário> para excluir um funcionário específico.
+  
   ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/f0e6d392-9b6f-4579-bdf3-05fd9d40c932)
 
  
   Essa rota permite voltar para retornar à página inicial da aplicação.
+  
   ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/9a624bb7-534c-448e-b600-1171ba919804)
 
  
@@ -294,17 +303,21 @@ https://youtu.be/KOZnwureieI?si=apOpJEB8UFkWucsj
   Verifica se o código está sendo executado como script principal.
   Cria um contexto de aplicativo para a variável app.
   Inicia o servidor de desenvolvimento do Flask
+  
   ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/9d4ac576-ae73-40fc-b5be-754f27a385a3)
 
   
   Templates em HTML para navegação.
+  
   ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/ed97c622-39cf-4d09-944b-142eb5b4a9d6)
 
-   Arquivos CSS onde se faz o controle dos elementos em HTML 
+   Arquivos CSS onde se faz o controle dos elementos em HTML
+   
   ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/d5018be1-76a2-4393-b982-b164ca5e5e25)
   
 
   # Estrutura do projeto no Visual Studio Code:
+  
   ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/b74c1e6d-e668-44e3-9991-f4596802c062)
 
   ## Vídeo do sistema em funcionamento:
