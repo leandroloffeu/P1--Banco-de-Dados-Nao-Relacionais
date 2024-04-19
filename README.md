@@ -137,10 +137,12 @@ https://youtu.be/KOZnwureieI?si=apOpJEB8UFkWucsj
 
 
   ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/1f9ea35e-4e69-441a-b90a-f1a8431a60df)
+  
   2. Selecionando o Banco de Dados (USE empresa):
   Este Comando [e para usar o database empresa banco de dados para operações subsequentes.Todas as CREATE TABLE instruções a seguir criarão tabelas neste banco de dados.
 
   ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/231f9d35-8da6-4a98-ae09-17d62b9dbe6f)
+  
   3. Criando tabela setor:
   Este comando cria uma tabela “setor” com as seguintes colunas:
   id: Um inteiro (int) que incrementa automaticamente (auto_increment) a cada novo registro, como chave primária (chave primária) da tabela. que garante que cada setor tenha um identificador exclusivo.
@@ -172,7 +174,7 @@ https://youtu.be/KOZnwureieI?si=apOpJEB8UFkWucsj
   A tabela funcionario contém detalhes dos funcionários, incluindo o setor atribuído.
   A tabela cargo define os cargos dos funcionários, também vinculados aos seus setores correspondentes.
   
-  # Criando um arquivo app.py onde iremos criar as importaçãoes, aplicativo Flask, configuração do banco de dados, definições de modelo, 
+  # Criando um arquivo app.py onde iremos criar as importaçãoes, aplicativo Flask, configuração do banco de dados, definições de modelo, rotas para aplicativo Flask. 
 
   Fazendo as Importações:
   
@@ -241,6 +243,12 @@ https://youtu.be/KOZnwureieI?si=apOpJEB8UFkWucsj
   ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/97a11f14-fc21-4792-9919-eaa0ebcf2bc9)
   
   Este bloco de código é responsável por criar as tabelas do banco de dados com base nos modelos definidos ( Setor, Cargo, e Funcionario).
+
+  ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/922b771f-ebf6-42af-8bb1-8819184e9b24)
+
+  ## Importante:
+  O código acima, demonstra a criação de modelos de dados e uma rota básica para um aplicativo Web Flask usando Flask- SQLAlchemy para gerenciar dados e interagir com um banco de dados MySQL.
+
 
   
 
