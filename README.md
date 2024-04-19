@@ -147,6 +147,7 @@ https://youtu.be/KOZnwureieI?si=apOpJEB8UFkWucsj
   nome: Uma string (varchar) com comprimento máximo de 50 caracteres para armazenar o nome do setor com not null onde indica que esta coluna não pode conter valores vazios.
 
   ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/3b52f07b-cae9-4be3-99fb-664417806755)
+  
   4. Criando tabela funcionario:
   Este comando define uma tabela chamada funcionario para armazenar informações dos funcionários com seguintes colunas:
   id: Um inteiro (int) que esta é uma chave primária inteira com incremento automático.
@@ -157,6 +158,7 @@ https://youtu.be/KOZnwureieI?si=apOpJEB8UFkWucsj
   id_setor: uma chave estrangeira inteira (int) que faz referência à idcoluna da tabla setor. Isso cria um relacionamento entre os funcionários e seus setores atribuídos.
 
   ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/851864c3-657a-4763-aaeb-e1997acc87cf)
+  
   5. Criando a tabela cargo:
   Este comando define uma tabela chamada cargo para armazenar informações sobre os cargos dos funcionários.
   id: Um inteiro (int) que é uma chave primária com incremento automático.
@@ -164,6 +166,7 @@ https://youtu.be/KOZnwureieI?si=apOpJEB8UFkWucsj
   nome: Uma string (varchar(50)) para armazenar o nome do cargo.
 
   ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/c73bb879-486d-4e82-a214-4dd75627bc84)  
+  
   ## Este código cria um esquema de banco de dados relacional para gerenciar os dados da empresa:
   A tabela setor armazena departamentos ou setores dentro da empresa.
   A tabela funcionario contém detalhes dos funcionários, incluindo o setor atribuído.
@@ -172,7 +175,9 @@ https://youtu.be/KOZnwureieI?si=apOpJEB8UFkWucsj
   # Criando um arquivo app.py onde iremos criar as importaçãoes, aplicativo Flask, configuração do banco de dados, definições de modelo, 
 
   Fazendo as Importações:
+  
   ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/b86d769a-a643-4b22-8061-9d6af4bfabab)
+  
   flask: esta é a estrutura principal usada para construir aplicativos da web em Python.
   render_template: esta função é usada para renderizar modelos HTML com conteúdo dinâmico.
   request: este objeto fornece acesso a solicitações HTTP recebidas do cliente onde são acessadas no navegador.
@@ -181,15 +186,20 @@ https://youtu.be/KOZnwureieI?si=apOpJEB8UFkWucsj
   flask_sqlalchemy: Esta é uma extensão que integra SQLAlchemy, um popular mapeador objeto-relacional (ORM), com Flask.
   
   Criação de aplicativo Flask:
+  
   ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/3fab5eba-2787-4b87-87d1-07bf9746ed9a)
+  
   Esparte do código se cria uma instância de aplicativo Flask chamada app. O __name__argumento garante que o aplicativo esteja configurado de manrora certa.
 
   Configuração do banco de dados:
+  
   ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/d12e11f1-868e-4c9d-b991-accc0e11d225)
+  
   Esta parte configura a conexão com um banco de dados MySQL chamado empresa. onde precisará substituir roote 12345678pelas credenciais reais do banco de dados, se elas forem diferentes. A string de conexão especifica o    tipo de banco de dados, nome de usuário, senha, host e nome do banco de dados.
   SQLAlchemyé inicializado com a app instância, criando um objeto de conexão com o banco de dados denominado db.
 
   Definições de modelo - Setor (Departamento):
+  
   ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/cf12e011-7311-4184-a4d4-0546bb9089fd)
   
 
