@@ -116,6 +116,10 @@ Quando executa o aplicativo o mesmo não funciona e retorna a segunte mensagem d
 
 https://youtu.be/KOZnwureieI?si=apOpJEB8UFkWucsj
 
+#  Ao tentar executar todo enunciado da prova, não consegui atender o 3º enunciado, sendo assim abaixo refiz um novo projeto apenas com as informações do primeiro enenciado.
+
+________________________________________________________________________________________________________________________________________________________________________________
+
 
  
 
