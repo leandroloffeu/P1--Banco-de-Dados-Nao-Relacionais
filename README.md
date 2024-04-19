@@ -125,7 +125,7 @@ https://youtu.be/KOZnwureieI?si=apOpJEB8UFkWucsj
 
 
 
- # Ao tentar executar todo enunciado da prova, não consegui atender o 2º enunciado, sendo assim abaixo refiz um novo projeto apenas com as informações do primeiro enunciado.
+ # Ao tentar executar todo enunciado da prova, não consegui atender o 3º enunciado, sendo assim abaixo refiz um novo projeto apenas com as informações do segundo enunciado.
   "Criar uma aplicação flask, que realize um CRUD dentro da aplicação(pode utilizar qualquer banco de dados relacional neste ponto)."
   
   ## No semestre anterior, realizamos um exercício em Flask e aproveitei o código para estabelecer uma conexão com o banco de dados MySQL. 
@@ -169,7 +169,35 @@ https://youtu.be/KOZnwureieI?si=apOpJEB8UFkWucsj
   A tabela funcionario contém detalhes dos funcionários, incluindo o setor atribuído.
   A tabela cargo define os cargos dos funcionários, também vinculados aos seus setores correspondentes.
   
+  # Criando um arquivo app.py onde iremos criar as importaçãoes, aplicativo Flask, configuração do banco de dados, definições de modelo, 
 
+  Fazendo as Importações:
+  ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/b86d769a-a643-4b22-8061-9d6af4bfabab)
+  flask: esta é a estrutura principal usada para construir aplicativos da web em Python.
+  render_template: esta função é usada para renderizar modelos HTML com conteúdo dinâmico.
+  request: este objeto fornece acesso a solicitações HTTP recebidas do cliente onde são acessadas no navegador.
+  redirect: esta função é usada para redirecionar um usuário para uma URL diferente.
+  url_for: Esta função é usada para gerar URLs para rotas Flask.
+  flask_sqlalchemy: Esta é uma extensão que integra SQLAlchemy, um popular mapeador objeto-relacional (ORM), com Flask.
+  
+  Criação de aplicativo Flask:
+  ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/3fab5eba-2787-4b87-87d1-07bf9746ed9a)
+  Esparte do código se cria uma instância de aplicativo Flask chamada app. O __name__argumento garante que o aplicativo esteja configurado de manrora certa.
+
+  Configuração do banco de dados:
+  ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/d12e11f1-868e-4c9d-b991-accc0e11d225)
+  Esta parte configura a conexão com um banco de dados MySQL chamado empresa. onde precisará substituir roote 12345678pelas credenciais reais do banco de dados, se elas forem diferentes. A string de conexão especifica o    tipo de banco de dados, nome de usuário, senha, host e nome do banco de dados.
+  SQLAlchemyé inicializado com a app instância, criando um objeto de conexão com o banco de dados denominado db.
+
+  Definições de modelo - Setor (Departamento):
+  ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/cf12e011-7311-4184-a4d4-0546bb9089fd)
+  
+
+
+  
+
+
+    
 
 
   
