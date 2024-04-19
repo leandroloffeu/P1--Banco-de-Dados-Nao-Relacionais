@@ -246,11 +246,20 @@ https://youtu.be/KOZnwureieI?si=apOpJEB8UFkWucsj
 
   ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/922b771f-ebf6-42af-8bb1-8819184e9b24)
 
-  ## Importante:
+  ## Importante o codigo acima:
   O código acima, demonstra a criação de modelos de dados e uma rota básica para um aplicativo Web Flask usando Flask- SQLAlchemy para gerenciar dados e interagir com um banco de dados MySQL.
 
 
+  ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/81651dbf-8bb5-4930-b373-0e4776cda4f1)
+
+  Esta Rota renderiza o template HTML chamado index.html. Onde define a página inicial da aplicação.
+
+  ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/1c80ea98-5cf2-4d5b-b71c-2c10b58987dc)
   
+  É a rota aceita requisições GET e POST
+  
+
+
 
 
 
