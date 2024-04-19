@@ -118,6 +118,8 @@ https://youtu.be/KOZnwureieI?si=apOpJEB8UFkWucsj
 
 #  Ao tentar executar todo enunciado da prova, não consegui atender o 3º enunciado, sendo assim abaixo refiz um novo projeto apenas com as informações do primeiro enunciado.
 
+"Criar um projeto utilizando mongodb, express e o padrão de projeto repository pattern, para o login de usuarios(usuarios podem ser cadastrados via requisição post, utilizado um postman ou insomnia). Deverá manter ainda o padrão MVC, utilizado em sala de aula e no trabalho anterior, só deverá dicionar o repository pattern."
+
 
 
 
