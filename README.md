@@ -246,7 +246,7 @@ https://youtu.be/KOZnwureieI?si=apOpJEB8UFkWucsj
 
   ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/922b771f-ebf6-42af-8bb1-8819184e9b24)
 
-  ## Importante o codigo acima:
+  ## "Importante o codigo acima"
   O código acima, demonstra a criação de modelos de dados e uma rota básica para um aplicativo Web Flask usando Flask- SQLAlchemy para gerenciar dados e interagir com um banco de dados MySQL.
 
 
