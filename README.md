@@ -85,6 +85,8 @@ pip install flask flask-sqlalchemy
 
 ![image](https://github.com/leandroloffeu/provap1node/assets/112645165/a4f4fbe7-2def-465a-a63d-58b230f1edc9)
 
+Este código fornece uma API Flask para gerenciar dados do usuário, permitindo que usuários sejam criados, recuperados por ID, atualizados e excluídos por meio de rotas e métodos.
+
 
 
 ## Unindo as duas camadas da aplicação:
