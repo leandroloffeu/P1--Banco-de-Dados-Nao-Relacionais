@@ -253,7 +253,7 @@ https://youtu.be/bh8_x5-yzeI?si=DlrlSWqQHgkdHW7D
   ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/231f9d35-8da6-4a98-ae09-17d62b9dbe6f)  
   
   
-   Criando tabela funcionario:
+  Criando tabela funcionario:
   Este comando define uma tabela chamada funcionario para armazenar informações dos funcionários com seguintes colunas:
   id: Um inteiro (int) que esta é uma chave primária inteira com incremento automático.
   primeiro_nome: Uma string (varchar) com comprimento máximo de 50 caracteres para armazenar o nome do funcionário.
@@ -269,7 +269,7 @@ https://youtu.be/bh8_x5-yzeI?si=DlrlSWqQHgkdHW7D
   Criando a tabela cargo:
   Este comando define uma tabela chamada cargo para armazenar informações sobre os cargos dos funcionários.
   id: Um inteiro (int) que é uma chave primária com incremento automático.
-  id_setor: Uma inteira (int), que se trata-se de uma chave estrangeira que faz referência à idcoluna da tabela setor, estabelecendo uma conexão entre as posições e seus setores.
+  id_setor: Uma inteira (int), que se trata de uma chave estrangeira que faz referência à idcoluna da tabela setor, estabelecendo uma conexão entre as posições e seus setores.
   nome: Uma string (varchar(50)) para armazenar o nome do cargo.
   
   ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/851864c3-657a-4763-aaeb-e1997acc87cf)
@@ -301,7 +301,7 @@ https://youtu.be/bh8_x5-yzeI?si=DlrlSWqQHgkdHW7D
   
   ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/3fab5eba-2787-4b87-87d1-07bf9746ed9a)
   
-  Esparte do código se cria uma instância de aplicativo Flask chamada app. O __name__argumento garante que o aplicativo esteja configurado de manrora certa.
+  Essa parte do código se cria uma instância de aplicativo Flask chamada app. O __name__argumento garante que o aplicativo esteja configurado de manrora certa.
 
   Configuração do banco de dados:
   
