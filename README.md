@@ -69,6 +69,9 @@ Os métodos tratam da recuperação de listas de usuários, da busca de um únic
 
 ![image](https://github.com/leandroloffeu/provap1node/assets/112645165/b8d86cbe-2667-4800-bb2e-00be7617484d)
 
+Esse código cria uma API web Node.js usando Express que permite aos usuários interagir com os dados do usuário (operações CRUD) por meio das rotas definidas. 
+
+
 
 # Criando uma aplicação Flask com CRUD:
 
