@@ -188,9 +188,11 @@ node src/server.js
 
 Após acessei o front com o seguinte endereço http://localhost:3000 e retornou o seguinte erro:
 
-![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/a256c50d-abad-41a0-bea6-e718fa1bee07)
+![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/a2b336a9-d71b-4a84-991e-f2f45b1d9847)
 
-![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/b5a1b50b-e535-426a-814c-f4a72a49bcf2)
+![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/88fe4fad-67e2-4588-8f1d-05fbdf732121)
+
+
 
 ## Vídeo quando executa:
 
