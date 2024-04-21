@@ -98,6 +98,7 @@ Foi feito um arquivo chamado "main.py" para esta aplicação:
 
 ![image](https://github.com/leandroloffeu/provap1node/assets/112645165/e60751b7-5c78-42a8-ad4a-c536e9dbe97d)
 
+O acima define um aplicativo cliente que interage com duas APIs separadas para criar, recuperar, atualizar e excluir usuários. 
 
 # Estrutura do projeto no Visual Studio Code:
 
