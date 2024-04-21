@@ -189,9 +189,11 @@ Executei o servidor com o seguinte comando:
 
 node src/server.js
 
-Após acessei o front com o seguinte endereço http://localhost:3000 e retornou o seguinte erro:
+Após acessei o front com o seguinte endereço http://localhost:3000 e tive o seguinte retorno:
 
 ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/241ba4d1-6d3e-47c8-815a-4b5bba7432fa)
+
+Esta funcional, porém por falta de conhecimento referente a rota eu não consigo termnar o projeto.
 
 
 
