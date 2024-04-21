@@ -213,7 +213,7 @@ Após acessei o front com o seguinte endereço http://localhost:3000 e tive o se
 
 ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/241ba4d1-6d3e-47c8-815a-4b5bba7432fa)
 
-Esta funcional, porém por falta de conhecimento referente a rota eu não consigo termnar o projeto.
+Esta funcional, porém, pela falta de conhecimento referente a rota eu não consigo terminar o projeto.
 
 
 
