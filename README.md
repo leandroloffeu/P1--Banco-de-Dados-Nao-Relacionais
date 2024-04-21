@@ -176,9 +176,10 @@ Servidor NongoDB:
 
 Frontend em (HTML):
 
-![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/eac9a1b8-7938-45d1-a42c-07eb2db1381e)
+![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/a2b336a9-d71b-4a84-991e-f2f45b1d9847)
 
-![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/8282366e-123c-4e29-90c2-678a4f94cd2d)
+![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/88fe4fad-67e2-4588-8f1d-05fbdf732121)
+
 
 Teste
 
