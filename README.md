@@ -59,6 +59,10 @@ A UserRepositoryaula facilita o gerenciamento de sua lista de dados do usuário.
 
 ![image](https://github.com/leandroloffeu/provap1node/assets/112645165/d89b84d6-c039-4fb7-8e69-a0b1293346d7)
 
+O código UserControllerclasse fornece um conjunto de métodos (API) para gerenciar dados do usuário em um aplicativo. 
+Ele interage com uma classe separada UserRepository para realizar operações de banco de dados. 
+Os métodos tratam da recuperação de listas de usuários, da busca de um único usuário, da criação de novos usuários, da atualização e da exclusão de usuários.
+
 
 
 ## feito um arquivo chamado "server.js" na raiz do projeto:
