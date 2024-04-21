@@ -121,7 +121,7 @@ https://youtu.be/KOZnwureieI?si=apOpJEB8UFkWucsj
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-#  Ao tentar executar todo enunciado da prova, não consegui atender o 3º enunciado, sendo assim abaixo refiz dois novos projetos separadamente. referente ao primeiro e segundo enunciado.
+#  Ao tentar executar todo enunciado da prova, não consegui atender o 3º enunciado, sendo assim abaixo refiz dois novos projetos separadamente. Referentes ao primeiro e segundo enunciado.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
