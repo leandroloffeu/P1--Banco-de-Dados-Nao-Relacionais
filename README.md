@@ -114,7 +114,7 @@ Quando executa o aplicativo o mesmo não funciona e retorna a segunte mensagem d
 
 ![image](https://github.com/leandroloffeu/provap1node/assets/112645165/8c22bc7f-b26d-402a-82bf-5da58e588756)
 
-Pesquisando sobre o erro, psrece ser sintaxe do Módulo ECMAScript (ESM) ( import) para importar um módulo que não possui uma exportação padrão. 
+Em minhas pesquisas referente ao erro apresentado, teria haver com a sintaxe do Módulo ECMAScript (ESM) ( import) para importar um módulo que não possui uma exportação padrão. 
 e que nas versões 12 e superiores do Node.js suportam ESM, mas módulos mais antigos podem não ser escritos para esta sintaxe.
 
 sendo assim, não tive conhecimento para resolver esse erro.
