@@ -43,6 +43,9 @@ npm install express mongoose body-parser cors
 
 ![image](https://github.com/leandroloffeu/provap1node/assets/112645165/4e5040d7-6ff9-4843-9d79-058647d60b8e)
 
+Este trecho de código utiliza a biblioteca Mongoose para interagir com um banco de dados MongoDB. 
+Ele define especificamente um modelo para armazenar dados do usuário.
+
 
 
 ## Criando uma pasta "repositories" e dentro dela, foi criado um arquivo chamado "UserRepository.js":
