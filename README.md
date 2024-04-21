@@ -118,9 +118,85 @@ Quando executa o aplicativo o mesmo não funciona e retorna a segunte mensagem d
 
 https://youtu.be/KOZnwureieI?si=apOpJEB8UFkWucsj
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 #  Ao tentar executar todo enunciado da prova, não consegui atender o 3º enunciado, sendo assim abaixo refiz um novo projeto apenas com as informações do primeiro enunciado.
 
 "Criar um projeto utilizando mongodb, express e o padrão de projeto repository pattern, para o login de usuarios(usuarios podem ser cadastrados via requisição post, utilizado um postman ou insomnia). Deverá manter ainda o padrão MVC, utilizado em sala de aula e no trabalho anterior, só deverá dicionar o repository pattern."
+
+Configuração Inicial:
+
+Criado um diretório para o projeto:
+
+mkdir MONGODB
+
+Iniciado um novo projeto Node.js
+
+npm init -y
+
+Instalei as dependências necessárias:
+
+npm install express mongoose
+
+# Estrutura do Projeto:
+
+![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/2b89a5a1-5a6a-4dae-b2fd-81c5c56e2e8d)
+
+Model 
+
+No arquivo models/User.js,defino um esquema para o modelo de usuário usando a biblioteca Mongoose:
+
+![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/25346f87-c3e7-4e8e-8326-5cd438841b06)
+
+Controller 
+
+No arquivo controllers/userController.js, defini as operações CRUD para usuários:
+
+![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/576473ed-1a13-4fec-bf39-b601a73d61d6)
+
+![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/09edc5a3-db21-4ecf-a0e6-9679fe631cfc)
+
+Rotas 
+
+No arquivo routes/userRoutes.js, foi definido as rotas para a API de usuários:
+
+![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/92be12d0-d8d6-4ace-80f3-cc4051773e9a)
+
+Servidor
+
+No arquivo server.js, foi configurado o servidor Express e conecte-se ao banco de dados MongoDB:
+
+![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/52f2f51f-d053-492b-925c-64465aa7b9dd)
+
+Servidor NongoDB:
+
+![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/f4f70ae7-b6fd-4f02-a8ff-33f3511c1565)
+
+
+Frontend em (HTML):
+
+![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/eac9a1b8-7938-45d1-a42c-07eb2db1381e)
+
+![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/8282366e-123c-4e29-90c2-678a4f94cd2d)
+
+Teste
+
+Executei o servidor com o seguinte comando:
+
+node src/server.js
+
+Após acessei o front com o seguinte endereço http://localhost:3000 e retornou o seguinte erro:
+
+![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/a256c50d-abad-41a0-bea6-e718fa1bee07)
+
+![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/b5a1b50b-e535-426a-814c-f4a72a49bcf2)
+
+## Vídeo quando executa:
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
  # Ao tentar executar todo enunciado da prova, não consegui atender o 3º enunciado, sendo assim abaixo refiz um novo projeto apenas com as informações do segundo enunciado.
