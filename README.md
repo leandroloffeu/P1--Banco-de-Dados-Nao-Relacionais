@@ -52,7 +52,7 @@ Ele define especificamente um modelo para armazenar dados do usuário.
 
 ![image](https://github.com/leandroloffeu/provap1node/assets/112645165/4ed15b85-4bee-48ed-aa51-54c6d2cca802)
 
-A UserRepositoryaula facilita o gerenciamento de sua lista de dados do usuário.
+A UserRepository facilita o gerenciamento de sua lista de dados do usuário.
 
 
 ## feito uma pasta chamada "controllers" e dentro dela, foi criado um arquivo chamado "UserController.js":
