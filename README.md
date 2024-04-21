@@ -117,7 +117,7 @@ Quando executa o aplicativo o mesmo não funciona e retorna a segunte mensagem d
 Em minhas pesquisas referente ao erro apresentado, teria haver com a sintaxe do Módulo ECMAScript (ESM) ( import) para importar um módulo que não possui uma exportação padrão. 
 e que nas versões 12 e superiores do Node.js suportam ESM, mas módulos mais antigos podem não ser escritos para esta sintaxe.
 
-sendo assim, não tive conhecimento para resolver esse erro.
+# Sendo assim, não tive conhecimento para resolver esse erro.
 
 ## Vídeo do erro quando executa:
 
