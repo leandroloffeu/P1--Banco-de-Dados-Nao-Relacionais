@@ -169,7 +169,8 @@ Model
 
 No arquivo models/User.js,defino um esquema para o modelo de usuário usando a biblioteca Mongoose:
 
-![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/25346f87-c3e7-4e8e-8326-5cd438841b06)
+![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/a9cc6b39-31df-4adb-b693-a1f1c20963bc)
+
 
 Controller 
 
