@@ -132,7 +132,7 @@ Quando executa o aplicativo o mesmo não funciona e retorna a segunte mensagem d
 Em minhas pesquisas referente ao erro apresentado, teria haver com a sintaxe do Módulo ECMAScript (ESM) ( import) para importar um módulo que não possui uma exportação padrão. 
 E que nas versões 12 e superiores do Node.js suportam ESM, mas módulos mais antigos podem não ser escritos para esta sintaxe.
 
-# Sendo assim, não tive conhecimento para resolver esse erro.
+## Sendo assim, não tive conhecimento para resolver esse erro.
 
 ## Vídeo do erro quando executa:
 
@@ -278,6 +278,7 @@ https://youtu.be/bh8_x5-yzeI?si=DlrlSWqQHgkdHW7D
 
   
   ## Este código cria um esquema de banco de dados relacional para gerenciar os dados da empresa:
+  
   A tabela setor armazena departamentos ou setores dentro da empresa.
   A tabela funcionario contém detalhes dos funcionários, incluindo o setor atribuído.
   A tabela cargo define os cargos dos funcionários, também vinculados aos seus setores correspondentes.  
