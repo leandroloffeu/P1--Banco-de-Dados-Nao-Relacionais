@@ -59,12 +59,11 @@ Ele usa estilos CSS para formatar a aparência da página e usa EJS para exibir 
 
 
 
-
-
-
-
-
 ## "Criar uma aplicação flask, que realize um CRUD dentro da aplicação(pode utilizar qualquer banco de dados relacional neste ponto)."
+
+  ## Estrutura do projeto no Visual Studio Code:
+  
+  ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/b74c1e6d-e668-44e3-9991-f4596802c062)
   
  
 Criando o Banco de Dados (CREATE DATABASE):
@@ -254,9 +253,6 @@ Preenchendo o nome do cargo e envia o formulário. O sistema salva o cargo no ba
   ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/d5018be1-76a2-4393-b982-b164ca5e5e25)
   
 
-  ## Estrutura do projeto no Visual Studio Code:
-  
-  ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/b74c1e6d-e668-44e3-9991-f4596802c062)
 
   # Vídeo da aplicação em funcionamento:
 
