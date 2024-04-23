@@ -253,8 +253,9 @@ Preenchendo o nome do cargo e envia o formulário. O sistema salva o cargo no ba
   ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/d5018be1-76a2-4393-b982-b164ca5e5e25)
   
 
+## Unir as duas camadas da aplicação, o login + o crud, nodejs + python.
 
-  # Vídeo da aplicação em funcionamento:
+Vídeo da aplicação em funcionamento:
 
 
 
