@@ -264,8 +264,49 @@ Preenchendo o nome do cargo e envia o formulário. O sistema salva o cargo no ba
   
   ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/ed97c622-39cf-4d09-944b-142eb5b4a9d6)
 
-   Arquivos CSS onde se faz o controle dos elementos em HTML
+  
+   Em:
    
+   ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/2808fdfe-d7b3-46be-b509-ed96bc75ba12)
+
+   O código HTML abaixo oferece uma interface inicial para um sistema de gerenciamento de funcionários, com links para as principais funcionalidades de cadastro e visualização de dados.
+    
+   ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/f1096648-116f-4e94-a765-90f2fbdff0a5)
+
+   Em:
+   
+   ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/16855de0-494d-43f1-9bad-7e1b56fc743e)
+
+   Nessa página permite cadastrar novos cargos através de um formulário. 
+
+   ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/6df23af3-84b0-4457-9c6e-27f34849f492)
+
+   Em:
+
+   ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/9c086c45-811a-4e97-a878-57f8cb6921f4)
+
+   Esta página define um formulário para cadastrar setores.
+
+   ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/f9ba6c40-6107-46e4-a25b-3d7f8030f6df)
+
+   Em:
+   
+   ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/98807a34-0057-4991-b110-a0bfed20d1cc)
+
+   Esta parte do código permite o cadastro de novos funcionários com a seleção de setores e cargos já existentes.
+
+   ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/cf8f527a-e46f-4199-a8de-06e6603112b1)
+
+   Em:
+   
+   ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/5924e14b-8d5d-42b8-9b45-5ca871733089)
+
+   Esta página permite visualizar a lista de funcionários cadastrados no sistema, incluindo seus dados básicos e a opção de excluir cada um individualmente.
+
+  ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/bebff9fe-7d70-4bbc-b636-d4f968be2b27)
+
+  Arquivos CSS onde se faz o controle dos elementos em HTML
+  
   ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/d5018be1-76a2-4393-b982-b164ca5e5e25)
   
 
