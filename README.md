@@ -30,7 +30,9 @@ Todas as avaliações serão sujeitas a análise do professor em sala de aula, p
 
  ## Estrutura do projeto no Visual Studio Code:
 
- ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/beb5ddb2-e81f-4223-933a-0b23c66d3729)
+![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/aa1d1423-f407-41a8-b176-d78e353dbb30)
+
+
 
 Em: 
 
@@ -56,6 +58,15 @@ Ele usa estilos CSS para formatar a aparência da página e usa EJS para exibir 
 
 ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/b8c89062-1a28-43a1-939e-913f570452eb)
 ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/fe9c9d4d-5768-4bf5-8537-f8e448f54847)
+
+EM:
+
+![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/d8f67f8e-fdde-48ef-b93e-78f17a6d35cd)
+
+A parte do código abaixo do javascript força a página a ser recarregada em um novo endereço URL: http://127.0.0.1:5000. Referente a aplicação Flask.
+
+![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/1a5a51e4-2357-489c-9570-a1546bb2c0c2)
+
 
 
 
