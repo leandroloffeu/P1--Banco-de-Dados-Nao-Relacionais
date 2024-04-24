@@ -133,7 +133,7 @@ A tabela setor armazena departamentos ou setores dentro da empresa.
 A tabela funcionario contém detalhes dos funcionários, incluindo o setor atribuído.
 A tabela cargo define os cargos dos funcionários, também vinculados aos seus setores correspondentes.  
 
-# Criando um arquivo app.py onde iremos criar as importaçãoes, aplicativo Flask, configuração do banco de dados, definições de modelo, rotas para aplicativo Flask. 
+## Criando um arquivo app.py onde iremos criar as importaçãoes, aplicativo Flask, configuração do banco de dados, definições de modelo, rotas para aplicativo Flask. 
   
 ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/27d0716b-16b9-446e-8807-4450ce02b4ba)
 
