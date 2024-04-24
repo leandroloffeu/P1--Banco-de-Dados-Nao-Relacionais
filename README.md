@@ -74,7 +74,8 @@ A parte do código abaixo do javascript força a página a ser recarregada em um
 
   ## Estrutura do projeto no Visual Studio Code:
   
-  ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/b74c1e6d-e668-44e3-9991-f4596802c062)
+  ![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/ab5b2b3b-6f35-43a3-b1d5-8df79c63e88b)
+
   
  
 Criando o Banco de Dados (CREATE DATABASE):
@@ -96,7 +97,9 @@ Este comando cria uma tabela “setor” com as seguintes colunas:
 id: Um inteiro (int) que incrementa automaticamente (auto_increment) a cada novo registro, como chave primária (chave primária) da tabela. que garante que cada setor tenha um identificador exclusivo.
 nome: Uma string (varchar) com comprimento máximo de 50 caracteres para armazenar o nome do setor com not null onde indica que esta coluna não pode conter valores vazios.
   
-![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/231f9d35-8da6-4a98-ae09-17d62b9dbe6f)  
+![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/faf66a23-1654-442c-89ab-3d6a7c5b4cad)
+
+  
   
   
 Criando tabela funcionario:
@@ -108,7 +111,7 @@ data_admissao: Um tipo de dados de data para armazenar a data de admissão do fu
 status_funcionario: Um valor booleano para representar a situação profissional do funcionário.
 id_setor: uma chave estrangeira inteira (int) que faz referência à idcoluna da tabla setor. Isso cria um relacionamento entre os funcionários e seus setores atribuídos.
   
-![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/3b52f07b-cae9-4be3-99fb-664417806755)
+![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/3b45508e-d447-4609-86e3-a6dedce1ebd4)
 
  
   
@@ -118,7 +121,8 @@ id: Um inteiro (int) que é uma chave primária com incremento automático.
 id_setor: Uma inteira (int), que se trata de uma chave estrangeira que faz referência à idcoluna da tabela setor, estabelecendo uma conexão entre as posições e seus setores.
 nome: Uma string (varchar(50)) para armazenar o nome do cargo.
   
-![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/851864c3-657a-4763-aaeb-e1997acc87cf)
+![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/50109966-6529-4b63-870a-fbd863f39671)
+
   
  
 
@@ -128,10 +132,11 @@ nome: Uma string (varchar(50)) para armazenar o nome do cargo.
 A tabela setor armazena departamentos ou setores dentro da empresa.
 A tabela funcionario contém detalhes dos funcionários, incluindo o setor atribuído.
 A tabela cargo define os cargos dos funcionários, também vinculados aos seus setores correspondentes.  
+
 # Criando um arquivo app.py onde iremos criar as importaçãoes, aplicativo Flask, configuração do banco de dados, definições de modelo, rotas para aplicativo Flask. 
   
-![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/c73bb879-486d-4e82-a214-4dd75627bc84)  
-  
+![image](https://github.com/leandroloffeu/P1--Banco-de-Dados-Nao-Relacionais/assets/112645165/27d0716b-16b9-446e-8807-4450ce02b4ba)
+
  
 Fazendo as Importações:
   
